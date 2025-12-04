@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Jessie Chen
 description              : Jessie Chen - Projects and CV 
-baseurl                  : "/spring-2025-portfolio-Jessie/" 
+baseurl                  : "/fa25-portfolio-jc3664/" 
 
 # Theme and Style
 theme: jekyll-theme-minimal
