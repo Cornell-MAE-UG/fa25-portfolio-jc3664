@@ -3,7 +3,7 @@ layout: project
 title: 2D Actuated Lifting Mechanism (Rigid)
 description: I designed a lifting mechanism with given constraints that would lift the maximum possible weight to the highest possible height. 
 technologies: [Statics]
-image: https://github.com/Cornell-MAE-UG/fa25-portfolio-jessc2326/blob/main/assets/images/Hw5.jpg
+image: https://github.com/Cornell-MAE-UG/fa25-portfolio-jc3664/blob/main/assets/images/Hw5.jpg
 ---
 
 Problem Definition: 
