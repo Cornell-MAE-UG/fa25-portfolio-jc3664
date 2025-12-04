@@ -6,6 +6,8 @@ technologies: [Statics]
 image: "{{ '/assets/images/Hw5.jpg' | relative_url }}"
 ---
 
+image: "{{ '/assets/images/Hw5.jpg' | relative_url }}"
+
 Problem Definition: 
 
 Given a 2D design space of 150cm long and 50cm tall, a bar of a fixed length (your
