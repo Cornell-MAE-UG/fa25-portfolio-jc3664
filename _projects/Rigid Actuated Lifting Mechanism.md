@@ -3,10 +3,8 @@ layout: project
 title: 2D Actuated Lifting Mechanism (Rigid)
 description: I designed a lifting mechanism with given constraints that would lift the maximum possible weight to the highest possible height. 
 technologies: [Statics]
-image: "{{ '/assets/images/Hw5.jpg' }}"
+image: /assets/images/Hw5.jpg
 ---
-
-image: "{{ '/assets/images/Hw5.jpg' }}"
 
 Problem Definition: 
 
