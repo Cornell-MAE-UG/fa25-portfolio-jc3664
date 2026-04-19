@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap');
 
-$navy:   #1a2744;
-$amber:  #e07b39;
-$bg:     #f5f4f0;
+$navy:   #2d4a3e;
+$amber:  #7aab8a;
+$bg:     #f2f5f0;
 $card:   #ffffff;
 $text:   #2c2c2c;
-$border: #e5e0d8;
+$border: #c8d9c8;
 
 body {
   font-family: 'DM Sans', sans-serif;
@@ -19,8 +19,8 @@ h1, h2, h3, h4, h5, h6 {
   color: $navy;
 }
 
-a { color: $amber; }
-a:hover { color: darken($amber, 10%); }
+a { color: $navy; }
+a:hover { color: darken($navy, 10%); }
 
 body::before {
   content: '';
@@ -60,14 +60,21 @@ body::before {
   font-size: 0.85rem;
 }
 
+h1 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
 .profile-image {
-  float: left;
-  margin: 4px 28px 20px 0;
+  display: block;
+  margin: 0 auto 1.5rem;
   width: 155px;
   height: 155px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 0 0 4px $bg, 0 0 0 7px $amber;
+  float: none;
 }
 
 .gallery-container {
@@ -87,14 +94,8 @@ body::before {
   overflow: hidden;
   border: 1px solid $border;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
   max-width: none;
   max-height: none;
-}
-
-.gallery-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
 }
 
 .gallery-item a {
@@ -133,8 +134,8 @@ body::before {
   gap: 6px;
   font-size: 0.9rem;
   font-weight: 600;
-  color: $amber !important;
-  border: 1.5px solid $amber;
+  color: $navy !important;
+  border: 1.5px solid $navy;
   border-radius: 20px;
   padding: 5px 14px 5px 10px;
   margin-bottom: 1.5rem;
@@ -142,7 +143,7 @@ body::before {
 }
 
 .back-arrow:hover {
-  background: $amber;
+  background: $navy;
   color: #fff !important;
   text-decoration: none;
 }
@@ -160,7 +161,7 @@ a[href$=".pdf"] {
 }
 
 a[href$=".pdf"]:hover {
-  background: $amber !important;
+  background: darken($navy, 10%) !important;
   color: #fff !important;
 }
 
@@ -170,12 +171,6 @@ hr {
 }
 
 @media (max-width: 600px) {
-  .profile-image {
-    float: none;
-    display: block;
-    margin: 0 auto 1.5rem;
-  }
-
   .project-image {
     float: none;
     display: block;
